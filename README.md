@@ -1,5 +1,7 @@
 # Event-Driven Microservices with Apache Kafka
 
+🔗 **Repository**: https://github.com/Copubah/kafka-microservices-demo
+
 A simple demonstration of event-driven architecture using Apache Kafka with three microservices:
 
 - Order Service: Creates orders and publishes `order_created` events
