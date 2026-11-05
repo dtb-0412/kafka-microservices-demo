@@ -53,7 +53,7 @@ def consume_orders():
         bootstrap_servers=[KAFKA_BOOTSTRAP_SERVERS],
         value_deserializer=lambda m: json.loads(m.decode('utf-8')),
         group_id='payment-service',
-        auto_offset_reset='latest'
+        auto_offset_reset='earliest'
     )
     
     print("Payment service started consuming orders...")

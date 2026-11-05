@@ -47,6 +47,11 @@ Event Flow:
 5. Notification Service consumes → logs notification
 ```
 
+## Windows PowerShell demo
+
+See [DEMO.md](DEMO.md) for PowerShell commands and a presentation walkthrough.
+The Bash commands below require a Bash shell.
+
 ## Quick Start
 
 1. Start all services:
